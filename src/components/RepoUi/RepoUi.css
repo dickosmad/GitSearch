@@ -1,0 +1,77 @@
+.grid {
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.repo {
+  flex: 5;
+  margin-left: 3rem;
+  margin-top: 2rem;
+
+}
+
+.git-repo {
+  flex: 3;
+  padding: 1rem;
+  margin-right: 32rem;
+  border: 1px solid #2b3ddb;
+  border-bottom: 1px solid #182869;
+
+}
+
+.git-repo li {
+  list-style: none;
+  margin: 1.5rem;
+}
+
+.git-repo li a {
+  font-size: 1.5rem;
+}
+
+/* Sidebar css */
+
+.sidebar {
+  flex: 1 1;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  border: 1px solid #2b3ddb;
+  height: fit-content;
+}
+
+.sidebar img {
+  width: auto;
+  height: 50px;
+  position: relative;
+  border-radius: 50%;
+  margin: 10px;
+  border: 1px solid #2b3ddb;
+}
+
+.sidebar .bio-img a {
+  text-align: center;
+  margin: 26px auto;
+}
+
+.sidebar .bio-img {
+  display: flex;
+}
+
+.sidebar ul {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+.sidebar ul li {
+  padding: 1rem 0.1rem;
+  margin: 0.5rem 0.1rem;
+  list-style: none;
+  list-style: none;
+}
+
+hr {
+  background-color: #9e9e9e0f;
+}
+
+/*End  Sidebar css */

@@ -1,0 +1,66 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "commonjs": true,
+    "jest": true
+  },
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "settings": {
+    "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
+    "import/parsers": {
+      "babel-eslint/parser": [".js", ".jsx"]
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  },
+  "plugins": ["react", "jsx-a11y", "react-hooks", "import"],
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "prettier/react",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "import/extensions": "off",
+    "no-param-reassign": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-fragments": "off",
+    "import/prefer-default-export": "off",
+    "react/jsx-props-no-spreading": "off",
+    "import/no-named-default": "off",
+    "react/prop-types": "off",
+    "jsx-a11y/aria-role": "warn",
+    "import/no-extraneous-dependencies": "off",
+    "jsx-a11y/no-console": "off",
+    "jsx-a11y/no-use-before-define": 0,
+    "import/no-named-as-default": 0,
+    "no-console": 0,
+    "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/iframe-has-title": 0,
+    "import/no-unresolved": 0,
+    "jsx-a11y/control-has-associated-label": 0,
+    "no-use-before-define": [
+      "error",
+      {
+        "variables": false
+      }
+    ],
+    "import/no-named-as-default-member": 0
+  }
+}
